@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Vite cache
+.vite/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment files
+.env*
+!.env.example  # (optional: keep an example file with dummy values)
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: lock files (keep or ignore based on your policy)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
