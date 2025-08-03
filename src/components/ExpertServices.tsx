@@ -1,41 +1,47 @@
 import React from 'react';
+import ciCdImage from '../assests/1.jfif'
+import cloudInfrastructureImage from "../assests/2.jfif"
+import automationImage from "../assests/3.jfif"
+import counsultingImage from "../assests/4.jpeg"
+import monitoringImage from "../assests/5.jfif"
+import efficiencyImage from "../assests/efficiency.jpeg"
 
 const servicesData = [
   {
     number: '1',
     title: 'Continuous Integration & Continuous Deployment (CI/CD)',
     description: 'We help you automate the process of code integration and deployment through robust CI/CD pipelines, ensuring faster, more reliable releases. This allows your teams to focus on development while automation handles testing, builds, and deployments, reducing manual errors and speeding up time-to-market.',
-    imageUrl: 'https://images.pexels.com/photos/18472233/pexels-photo-18472233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    imageUrl: ciCdImage
   },
   {
     number: '2',
     title: 'Cloud Infrastructure Management',
     description: 'We specialize in designing, deploying, and managing cloud infrastructures (AWS, Azure, Google Cloud) that are scalable, secure, and cost-efficient. Our cloud management services ensure optimal performance, high availability, and smooth scaling as your business grows.',
-    imageUrl: 'https://images.pexels.com/photos/18472235/pexels-photo-18472235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    imageUrl:cloudInfrastructureImage
   },
   {
     number: '3',
     title: 'Automation & Configuration Management',
     description: 'Our automation services streamline your software delivery process, from provisioning environments to managing configurations. We use tools like Ansible, Puppet, and Chef to reduce manual intervention, enhance productivity, and ensure consistency across your infrastructure.',
-    imageUrl: 'https://images.pexels.com/photos/18472234/pexels-photo-18472234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    imageUrl: automationImage
   },
   {
     number: '4',
     title: 'DevOps Consulting & Strategy',
     description: 'Our core focus is delivering top-tier DevOps consulting services in India. Our team works with you to define a tailored DevOps strategy, aligning it with your business goals to improve collaboration, reduce time-to-market, and increase overall operational efficiency.',
-    imageUrl: 'https://images.pexels.com/photos/18472236/pexels-photo-18472236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    imageUrl: counsultingImage
   },
   {
     number: '5',
     title: 'Monitoring & Performance Optimization',
     description: 'We offer real-time monitoring and performance tuning to proactively identify bottlenecks, optimize resource utilization, and ensure your systems are running efficiently. Our continuous monitoring solutions guarantee uptime and support seamless scalability as demand grows.',
-    imageUrl: 'https://images.pexels.com/photos/18472237/pexels-photo-18472237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    imageUrl: monitoringImage
   },
   {
     number: '6',
     title: 'Security Integration in DevOps (DevSecOps)',
     description: 'We implement security practices early in the development cycle to reduce vulnerabilities and ensure that your applications meet security standards. Through automated testing and regular audits, we help secure your code and infrastructure at every step of the way.',
-    imageUrl: 'https://images.pexels.com/photos/18472238/pexels-photo-18472238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    imageUrl: efficiencyImage
   }
 ];
 
