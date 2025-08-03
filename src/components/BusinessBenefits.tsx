@@ -1,30 +1,35 @@
 import React from 'react';
+import collabroationImage from "../assests/improve collabroation.jpeg"
+import higherQuality from "../assests/higher quality .jpeg"
+import efficiencyImage from "../assests/efficiency.jpeg"
+import fasterTimeToMarketImage from "../assests/faster time to market.jpeg"
+import costReductionImage from "../assests/cost reduction.jfif"
 
 const benefitsData = [
   {
     title: 'Faster Time-To-Market',
     description: 'By automating and streamlining development processes, DevOps enables quicker release cycles, allowing you to deliver products and updates faster, keeping you ahead of the competition.',
-    imageUrl: 'https://images.pexels.com/photos/18472233/pexels-photo-18472233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    imageUrl: fasterTimeToMarketImage
   },
   {
     title: 'Improved Collaboration',
     description: 'DevOps fosters collaboration between development and operations teams, breaking down silos and ensuring more cohesive and efficient workflows, ultimately driving innovation.',
-    imageUrl: 'https://images.pexels.com/photos/18472236/pexels-photo-18472236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    imageUrl: collabroationImage
   },
   {
     title: 'Increased Efficiency & Automation',
     description: 'With automated pipelines and reduced manual tasks, DevOps boosts operational efficiency, ensuring tasks are done faster, with fewer errors, and more predictably.',
-    imageUrl: 'https://images.pexels.com/photos/18472234/pexels-photo-18472234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    imageUrl: efficiencyImage
   },
   {
     title: 'Higher Quality and Reliability',
     description: 'Frequent testing, continuous monitoring, and automated checks improve the quality of code, reducing bugs and downtime, while ensuring a more stable and reliable product.',
-    imageUrl: 'https://images.pexels.com/photos/18472238/pexels-photo-18472238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    imageUrl:higherQuality
   },
   {
     title: 'Cost Reduction',
     description: 'By improving processes and utilizing resources efficiently, DevOps reduces overhead costs. Automation minimizes manual interventions, while optimized cloud infrastructure ensures you\'re not overspending.',
-    imageUrl: 'https://images.pexels.com/photos/18472239/pexels-photo-18472239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    imageUrl: costReductionImage
   },
   {
     title: 'Scalability & Flexibility',
