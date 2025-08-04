@@ -1,6 +1,5 @@
-import React from 'react';
 import ciCdImage from '../assests/1.jfif'
-import cloudInfrastructureImage from "../assests/2.jfif"
+import cloudInfrastructureImage from "../assests/Cloud Infrastructure Management.png"
 import automationImage from "../assests/3.jfif"
 import counsultingImage from "../assests/4.jpeg"
 import monitoringImage from "../assests/5.jfif"
