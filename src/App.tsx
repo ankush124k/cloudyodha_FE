@@ -35,18 +35,29 @@ function App() {
 
       {/* Page Content */}
       <main>
+        <section id='why-us'>
         <WhyChooseUs />
+        </section>
+
+        <section id='services'>
         <ExpertServices />
+        </section>
+
+        <section id='devOps'>
         <TechStack />
         <ImplementationProcess />
         <BusinessBenefits />
+        </section>
+
         <HiringModels />
         <IndustrySolutions />
         <FaqSection />
         <CtaSection />
       </main>
 
-      <Footer />
+        <section id='aboutUs'>
+          <Footer />
+        </section>
     </div>
   );
 }
