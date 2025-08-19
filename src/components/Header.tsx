@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
-import cloudyodhaLogo from '../asseSts/logos/cloudyodhaLogo.jpg'
+import cloudyodhaLogo from '../assests/logos/cloudyodhaLogo.jpg'
 
 const NavLink = ({ children, href, hasDropdown = false }: { children: React.ReactNode, href: string, hasDropdown?: boolean }) => (
   <a href={href} className="flex items-center text-white hover:text-gray-300 transition-colors duration-300 text-base">
