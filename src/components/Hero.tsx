@@ -98,7 +98,7 @@ const InputField = ({ placeholder, type, name }: { placeholder: string, type: st
 
 const Hero = () => {
   return (
-    <section className="py-12 sm:py-20 px-4 sm:px-6 lg:px-8">
+    <section className="py-4 sm:py-10 px-4 sm:px-6 lg:px-8">
       <div className="max-w-screen-xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
         {/* Left Column */}
         <div className="space-y-8">
