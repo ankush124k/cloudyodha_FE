@@ -8,7 +8,7 @@ const footerData = {
     title: 'Get in Touch',
     address: [
       'Gaur city Noida',
-      'Uttar Pradesh, 695581',
+      'Uttar Pradesh, 201009',
     ],
   },
   learnMore: {
