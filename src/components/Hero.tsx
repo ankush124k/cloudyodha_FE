@@ -1,6 +1,12 @@
 /* eslint-disable no-irregular-whitespace */
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import ReactGA from 'react-ga4'; 
+
+// ---EmailJS credentials from environment variables ---
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const features = [
   { number: 1, text: "End-to-End DevOps & Cloud Solutions" },
@@ -19,9 +25,6 @@ const FeatureItem = ({ number, text }: { number: number, text: string }) => (
     <span className="text-gray-300">{text}</span>
   </div>
 );
-
-// --- MODIFICATIONS START HERE ---
-
 const ContactForm = () => {
   // Use useRef to get a direct reference to the form element
   const form = useRef<HTMLFormElement>(null);
@@ -29,16 +32,21 @@ const ContactForm = () => {
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault(); // Prevents the default form submission (page refresh)
+
+    ReactGA.event({
+      category: 'Form Submission',
+      action: 'Clicked Submit Button',
+      label: 'Hero Contact Form'
+    });
     
     // Check if the form ref is currently pointing to a form element
     if (form.current) {
         setIsSubmitting(true);
         emailjs.sendForm(
-            'service_doi4peh',      // Replace with your EmailJS Service ID
-            'template_cgb49i3',     // Replace with your EmailJS Template ID
-            form.current,
-            'KQ4rjIgcbrEryk_EB'       // Replace with your EmailJS Public Key
-        )
+            SERVICE_ID,
+            TEMPLATE_ID, 
+            form.current, 
+            PUBLIC_KEY)
         .then((result) => {
             console.log('SUCCESS!', result.text);
             alert('Message sent successfully!');
