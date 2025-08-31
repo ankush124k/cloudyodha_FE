@@ -44,7 +44,7 @@ const Footer = () => {
           {/* Adjusted column span for better balance in a 4-column layout */}
           <div className="col-span-2 md:col-span-1">
             <a href="#" className="inline-block mb-5">
-              <img className="h-32 w-auto" src={cloudyodhaLogo} alt='CloudYodha Logo' />
+              <img className="h-32 w-auto" src='/white.png' alt='CloudYodha Logo' />
             </a>
             <p className="text-sm leading-relaxed">
               Your trusted partner in navigating the cloud.
